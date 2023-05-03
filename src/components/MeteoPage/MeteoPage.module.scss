@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  input {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  input:focus {
+    border-color: rgba(30, 143, 255, 0.616);
+    box-shadow: 0 0 8px 0 rgba(30, 143, 255, 0.568);
+  }
+}
+.form{
+    position: relative;
+}
+.weatherList {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.cityLi {
+  cursor: pointer;
+}
+.cityLi:hover {
+    color: rgba(0, 0, 0, 0.678);
+}
+.cityUl{
+    top: 26px;
+    position: absolute;
+    background:#fffffff8;
+    opacity: .9;
+}
